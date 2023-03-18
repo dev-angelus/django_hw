@@ -11,13 +11,19 @@
         <ol>
             {% for i in book %}
             <li>
-            <h2>{{i.title}}</h2>
-            <p>{{i.description}}</p>
+                <h2>{{i.title}}</h2>
+                <p>{{i.description}}</p>
+
                 <a href=url>{{i.url}} </a>
+
+                <p>Click the button to read online or download book!</p>
+                <button onclick={{i.url}}>Download or read book online here!</button>
+
 <!--            <p><a href=url>Download or read book online here!</a></p>-->
-<!--            <a>{{i.url}}<a>-->
-            <img src="{{i.image.url}}" alt="" width="400" height="400">
-             <p>{{i.created_date}}</p>
+
+                <img src="{{i.image.url}}" alt="" width="400" height="400">
+
+                <p>{{i.created_date}}</p>
                 </li>
             {% endfor %}
         </ol>
