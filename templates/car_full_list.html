@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Car Full</title>
+</head>
+<body>
+<center>
+    <button><a href="/car_list/">На список автомобилей</a></button>
+    <h1><b>{{car_full.title }}</b></h1>
+    <p><i>{{car_full.year}}</i></p>
+    <img src="{{car_full.image.url}}" alt="" width=280 height=200>
+    <p><b>Топливо: </b> <i>{{car_full.fuel_type}}</i></p>
+    <p><b>Объем двигателя:</b><i>{{car_full.engine_size}}</i></p>
+    <p><b>КП: </b> <i>{{car_full.transmission}}</i></p>
+    <p><b>Тип кузова: </b><i>{{car_full.body_type}}</i></p>
+    <p><b>Мощность двигателя: </b>{{car_full.power}}</p>
+    <p><b>Количество сидений: </b>{{car_full.seat}}</p>
+    <p><b>Цена: {{car_full.cost}} $ </b></p>
+    <p><b>Доп. параметры: {{car_full.extra_parameters}}</b></p>
+    <p>{{car_full.created_date}}</p>
+    <iframe src="{{car_full.video}}" frameborder="0" width="640" height="420"></iframe>
+
+</center>
+</body>
+</html>
