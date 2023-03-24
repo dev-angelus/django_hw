@@ -1,0 +1,85 @@
+/*universal selector*/
+body{
+    background-image: url("https://static.storyweaver.org.in/illustrations/58816/large/3.jpg") ;
+    background-size: cover ;
+}
+
+hr{
+    border: none; /* Убираем границу для браузера Firefox */
+    color: cyan; /* Цвет линии для остальных браузеров */
+    background-color: cyan; /* Цвет линии для браузера Firefox и Opera */
+    height: 5px; /* Толщина линии */
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+}
+.content{
+	margin-top: 50px;
+}
+.product {
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #c0c0c0;
+	height: 500px;
+	width: 300px;
+	overflow: hidden;
+	padding: 25px 15px;
+	position: page;
+	text-align: center;
+	transition: all 0.5s ease 0s;
+	/*margin-bottom: 20px;*/
+	margin: 0 0 auto;
+	list-style: none;
+}
+
+.product:hover {
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.product-img {
+	height: 200px;
+}
+.product-title a {
+	color: #000;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.product-desc {
+    max-height: content-box;
+    overflow: hidden;
+}
+.product-price {
+	bottom: 20px;
+	left: 0;
+	width: 100%;
+	color: darkblue;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.product-wrapper {
+	display: block;
+	width: 100%;
+	float: left;
+	transition: width .2s;
+}
+
+@media only screen and (min-width: 400px) {
+	.product-wrapper {
+		width: 50%;
+	}
+}
+
+/*body {*/
+/*    background-color: darkseagreen;*/
+/*}*/
+
+/*!**tag selector*!*/
+/*h2{*/
+/*    color: crimson;*/
+/*}*/
+
+/*!**class selector*!*/
+/*.qwerty{*/
+/*    color: cyan;*/
+/*}*/
