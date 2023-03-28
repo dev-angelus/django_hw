@@ -40,6 +40,16 @@
                     <span class="category">Дата добавления: {{car_full.created_date}}</span>
                     <br>
                     <br>
+                                        <button type="button" class="btn btn-outline-info">
+                        <a href="/car_list/" style="text-decoration: none; color: blue">На список автомобилей</a>
+</button>
+                                 <button type="button" class="btn btn-outline-info">
+    <a href="/car_list/{{car_full.id}}/delete/" style="text-decoration: none; color: blue">Удалить</a>
+</button>
+
+                                     <button type="button" class="btn btn-outline-info">
+    <a href="/car_list/{{car_full.id}}/update/" style="text-decoration: none; color: blue">Редактировать</a>
+</button>
                 </div>
             </div>
         </div>
