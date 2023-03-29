@@ -20,7 +20,7 @@ img {
 }
 .product {
 	background: #fff none repeat scroll 0 0;
-	border: 1px solid #c0c0c0;
+	border: 3px solid #c0c0c0;
 	height: 500px;
 	width: 300px;
 	overflow: hidden;
@@ -34,7 +34,7 @@ img {
 }
 
 .product:hover {
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+	box-shadow: 5px 0 20px rgba(0, 0, 0, 0.5);
 }
 .product-img {
 	height: 200px;

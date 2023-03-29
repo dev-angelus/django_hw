@@ -35,4 +35,5 @@ class User(models.Model):
     feedback_text = models.TextField("Ваш отзыв:", max_length=200)
 
     def __str__(self):
-        return self.title
+        return self.feedback_text
+

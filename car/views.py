@@ -53,14 +53,34 @@ def update_object_view(request, id):
     }
     return render(request, 'update_car.html', context)
 
-def feedback_view(request):
-    method = request.method
-    if method == "POST":
-        form = forms.FeedbackForm(request.POST, request.FILES)
+
+def feedback_view(request, id):
+    car_object = get_object_or_404(models.Car, id=id)
+    if request.method == 'POST':
+        form = forms.FeedbackForm(instance=car_object, data=request.POST)
         if form.is_valid():
             form.save()
-            return HttpResponse('<h2 Ваш отзыв успешно добавлен в бвзу данных </h2>')
+            return HttpResponse('<h2 Ваш отзыв успешно добавлен в базу данных </h2>')
     else:
-        form = forms.FeedbackForm()
+        form = forms.FeedbackForm(instance=car_object)
 
-    return render(request, "feedback.html", {'form': form})
+    context = {
+        'form': form,
+        'object': car_object
+    }
+    return render(request, 'feedback.html', context)
+
+
+def catalog_view(request):
+    return render(request, 'catalog.html')
+    #
+    # method = request.method
+    # if method == "POST":
+    #     form = forms.FeedbackForm(request.POST, request.FILES)
+    #     if form.is_valid():
+    #         form.save()
+    #         return HttpResponse('<h2 Ваш отзыв успешно добавлен в базу данных </h2>')
+    # else:
+    #     form = forms.FeedbackForm()
+    #
+    # return render(request, "feedback.html", {'form': form})

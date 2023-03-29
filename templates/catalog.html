@@ -1,10 +1,29 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Catalog</title>
+    <link rel="stylesheet" href="{%  static 'css/style1.css' %}">
 </head>
 <body>
+{%  include 'header.html' %}
+<div class="container content">
+	<div class="row">
+		<div class="col-md-4">
+			<div class="list-group">
 
+				<a href="#" class="list-group-item">Lexus</a>
+				<a href="#" class="list-group-item">BMW</a>
+				<a href="#" class="list-group-item">Toyota</a>
+				<a href="#" class="list-group-item">Land Rover</a>
+				<a href="#" class="list-group-item">Mercedes</a>
+			</div>
+		</div>
+	</div>
+</div>
+{% include 'footer.html' %}
+</body>
+</html>
 </body>
 </html>
