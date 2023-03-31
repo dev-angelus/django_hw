@@ -48,7 +48,7 @@
                 <div class="col-md-8 products">
 	                <div class="row">
                         <div class="col-sm-4">
-                            {% for i in car_object %}
+                            {% for i in object_list %}
                                 <div class="product-wrapper">
 		        	            <div class="product">
 				                    <div class="product-img">
@@ -58,6 +58,7 @@
                                 <p class="product-desc">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
                                 <p class="product-price">{{ i.cost }} $ </p>
                                 <a href="/car_list/{{ i.id }}" class="btn btn-primary"> Подробнее </a>
+                                    <a href="/car_list/{{i.id}}/feedback/" class="btn btn-primary"> Оставить отзыв </a>
 			                    </div>
                                 </div>
                             {% endfor %}

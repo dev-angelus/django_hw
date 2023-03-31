@@ -11,6 +11,6 @@ class CarForm(forms.ModelForm):
 
 class FeedbackForm(forms.ModelForm):
     class Meta:
-        model = models.User
+        model = models.CarReview
         fields = "__all__"
 

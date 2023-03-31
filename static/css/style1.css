@@ -70,6 +70,12 @@ img {
 	}
 }
 
+
+.product-wrapper {
+	z-index: 999;
+	margin-left: 30px;
+}
+
 /*body {*/
 /*    background-color: darkseagreen;*/
 /*}*/

@@ -99,11 +99,15 @@ body {
    color: #707981;
 }
 </style>
+<center>
 <button type="button" class="btn btn-outline-info">
-    <a href="/car_list/" style="text-decoration: none; color: black">На список автомобилей</a>
-</button>
 
-<form class="decor">
+    <a href="/car_list/" style="text-decoration: none; color: black">На список автомобилей</a>
+
+</button>
+</center>
+{#<form action="/create_car/" class="railway" method="POST" enctype="multipart/form-data">#}
+<form class="decor" method="POST" enctype="multipart/form-data">
 <div class="form-left-decoration"></div>
 <div class="form-right-decoration"></div>
 <div class="circle"></div>
@@ -111,6 +115,11 @@ body {
 <h3>Оставить отзыв</h3>
     {% csrf_token %}
     {{form.as_p}}
+<div class="submit-block">
+<div class="submit-button">
+<i class="fa fa-train" aria-hidden="true"></i><br>
 <input type="submit" value="Отправить">
+</div>
+</div>
 </div>
 </form>

@@ -5,14 +5,21 @@
     <title>Update Car</title>
 </head>
 <body>
+<center>
+<button type="button" class="btn btn-outline-info">
+
+    <a href="/car_list/" style="text-decoration: none; color: black">На список автомобилей</a>
+
+</button>
+</center>
 <form class="decor" method="post" enctype="multipart/form-data">
 <div class="form-left-decoration"></div>
 <div class="form-right-decoration"></div>
 <div class="circle"></div>
 <div class="form-inner">
 <h3>Обновить данные</h3>
-{% csrf_token %}
-  {{form.as_p}}
+    {% csrf_token %}
+    {{form.as_p}}
 <input type="submit" value="Обновить">
 </div>
 </form>
