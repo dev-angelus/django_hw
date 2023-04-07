@@ -6,13 +6,15 @@
 </head>
 <body>
 {%  include 'header.html' %}
+
 <center>
 <form method="POST" enctype="multipart/form-data">
   {% csrf_token %}
   {{form.as_p}}
   <button type="submit">Взять данные</button>
 </form>
-    </center>
+</center>
+
 {% include 'footer.html' %}
 </body>
 </html>

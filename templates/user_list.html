@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User_Lists</title>
+</head>
+<body>
+<div>
+<center>
+    <h1>Congrats! You just registered!</h1>
+</center>
+  <ol>
+    {% for i in object_list %}
+    <li>
+      <h2>{{i.username}}</h2>
+        <p>{{i.email}}</p>
+
+    </li>
+    {% endfor %}
+   </ol>
+  <center>
+  <button type="button" class="btn btn-outline-info">
+    <a href="/" style="text-decoration: none; color: black">На главную страницу</a>
+</button>
+      </center>
+
+</div>
+</body>
+</html>

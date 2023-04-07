@@ -5,19 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4f0136d-86b8-4a4e-adba-20a55e735216" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/parser_app/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parser_app/parser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parser_app/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/film_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/start_parsing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom_users/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom_users/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/user_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/car/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/car/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/car/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser_app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/parser_app/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/parser_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser_app/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/parser_app/parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/parser_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/car_full_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/car_full_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/catalog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/create_car.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/create_car.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/film_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/film_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/start_parsing.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/start_parsing.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,22 +56,22 @@
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "CodeWithMe",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CodeWithMe&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="django_hw" type="Python.DjangoServer" factoryName="Django server">
       <module name="django_hw" />
@@ -101,12 +108,24 @@
       <updated>1679038384359</updated>
       <workItem from="1679038390118" duration="10176000" />
       <workItem from="1679283844732" duration="546000" />
-      <workItem from="1679284953590" duration="88665000" />
+      <workItem from="1679284953590" duration="108170000" />
+      <workItem from="1680840066056" duration="2328000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

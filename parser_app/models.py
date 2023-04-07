@@ -1,8 +1,7 @@
 from django.db import models
 
+
 #parsing of ts.kg
-
-
 class CinemaKg(models.Model):
     title_name = models.CharField(max_length=100)
     title_url = models.CharField(max_length=100)

@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'book',
     'car',
-    "parser_app",
+    'parser_app',
+    'custom_users',
 ]
 
 MIDDLEWARE = [

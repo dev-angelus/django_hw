@@ -22,7 +22,7 @@ class ParserFormView(FormView):
         if form.is_valid():
             form.parser_data()
             return HttpResponse('<center> <h1>Данные взяты......</h1> \
-             <button> <a href="/film_list/">На список фильмов</a> </button> </center>')
+             <button> <a href="/film_list">На список фильмов</a> </button> </center>')
         else:
             return super(ParserFormView).post(request, *args, **kwargs)
 
@@ -38,4 +38,6 @@ class Search(ListView):
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super().get_context_data(**kwargs)
         context['q'] = self.request.GET.get('q')
+
         return context
+
