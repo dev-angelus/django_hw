@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clothes Catalog</title>
+    <link rel="stylesheet" href="{%  static 'css/style1.css' %}">
+</head>
+<body>
+{%  include 'header.html' %}
+<div class="container content">
+	<div class="row">
+		<div class="col-md-4">
+			<div class="list-group">
+                <a href="/clothes/" class="list-group-item">All</a>
+				<a href="/clothes1/" class="list-group-item">Coats</a>
+				<a href="/clothes4/" class="list-group-item">Tops</a>
+				<a href="/clothes2/" class="list-group-item">Jeans</a>
+				<a href="/clothes3/" class="list-group-item">Blazers</a>
+
+			</div>
+		</div>
+	</div>
+</div>
+<center>
+                              <button type="button" class="btn btn-outline-info">
+                        <a href="/order/" style="text-decoration: none; color: blue">Заказать</a>
+
+</button>
+         <button type="button" class="btn btn-outline-info">
+                        <a href="/order_status/" style="text-decoration: none; color: blue">Статус Заказа</a>
+
+</button>
+    <br>
+    <br>
+    <button type="button" class="btn btn-outline-info">
+                        <a href="/" style="text-decoration: none; color: blue">На главную страницу</a>
+</button>
+    </center>
+{% include 'footer.html' %}
+</body>
+</html>

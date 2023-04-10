@@ -22,16 +22,16 @@ class CustomUser(User):
         (FEMALE, "FEMALE"),
         (OTHER, "OTHER")
     )
-
-    MARRIED = 1
-    SINGLE = 2
-    COMPLICATED = 3
-
-    MARITAL_STATUS = (
-        (MARRIED, 'MARRIED'),
-        (SINGLE, 'SINGLE'),
-        (COMPLICATED, 'COMPLICATED')
-    )
+    #
+    # MARRIED = 1
+    # SINGLE = 2
+    # COMPLICATED = 3
+    #
+    # MARITAL_STATUS = (
+    #     (MARRIED, 'MARRIED'),
+    #     (SINGLE, 'SINGLE'),
+    #     (COMPLICATED, 'COMPLICATED')
+    # )
 
     class Meta:
         verbose_name = 'Пользователь'
@@ -41,6 +41,6 @@ class CustomUser(User):
     age = models.PositiveIntegerField('Ваш возраст')
     user_type = models.IntegerField('Тип пользователя', choices=USER_TYPE)
     gender = models.IntegerField('Пол', choices=GENDER_TYPE)
-    citizenship = models.CharField('Гражданство', max_length=100)
-    city = models.CharField('Город', max_length=100)
-    marital_status = models.IntegerField('Семейное положение', choices=MARITAL_STATUS)
+    # citizenship = models.CharField('Гражданство', max_length=100)
+    # city = models.CharField('Город', max_length=100)
+    # marital_status = models.IntegerField('Семейное положение', choices=MARITAL_STATUS)

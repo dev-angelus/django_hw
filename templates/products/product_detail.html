@@ -1,0 +1,14 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Detail</title>
+   <link rel="stylesheet" href="{%  static 'css/style1.css' %}">
+</head>
+<body>
+<h1> {{ object.name }}</h1>
+<p>{{ object.price }}</p>
+<p>{{ object.date_created }}</p>
+</body>
+</html>

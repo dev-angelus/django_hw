@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Products</title>
+    <link rel="stylesheet" href="{%  static 'css/style1.css' %}">
+</head>
+<body>
+<center>
+<h1><b>Список продуктов: </b></h1>
+</center>
+<div>
+    <ol>
+        {% for i in object_list %}
+            <li>
+            <h1>{{ i.name }}</h1>
+            <h2><a href="/product/{{ i.id }}">More</a></h2>
+            </li>
+        {% endfor %}
+    </ol>
+</div>
+</body>
+</html>

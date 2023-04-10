@@ -37,7 +37,7 @@ class CustomRegistrationForm(UserCreationForm):
     age = forms.IntegerField(required=True)
     user_type = forms.ChoiceField(choices=USER_TYPE, required=True)
     gender = forms.ChoiceField(choices=GENDER_TYPE, required=True)
-    marital_status = forms.ChoiceField(choices=MARITAL_STATUS)
+    # marital_status = forms.ChoiceField(choices=MARITAL_STATUS)
     class Meta:
         model = models.CustomUser
         fields = (
@@ -50,8 +50,8 @@ class CustomRegistrationForm(UserCreationForm):
             'age',
             'user_type',
             'gender',
-            'citizenship',
-            'city',
+            # 'citizenship',
+            # 'city',
         )
 
     def save(self, commit=True):

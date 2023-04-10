@@ -5,26 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4f0136d-86b8-4a4e-adba-20a55e735216" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/custom_users/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom_users/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/user_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloth/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloth/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/clothes/clothes_catalog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/clothes/clothes_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/clothes/clothes_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/clothes/order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/clothes/order_status.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/clothes/tag1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/clothes/tag2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/clothes/tag3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/clothes/tag4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/products/product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/products/product_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/car/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom_users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/custom_users/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom_users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/custom_users/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parser_app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/parser_app/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parser_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/parser_app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parser_app/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/parser_app/parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parser_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/parser_app/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/car_full_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/car_full_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/catalog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/create_car.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/create_car.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/film_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/film_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/start_parsing.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/start_parsing.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +39,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -109,7 +110,7 @@
       <workItem from="1679038390118" duration="10176000" />
       <workItem from="1679283844732" duration="546000" />
       <workItem from="1679284953590" duration="108170000" />
-      <workItem from="1680840066056" duration="2328000" />
+      <workItem from="1680840066056" duration="19973000" />
     </task>
     <servers />
   </component>
